@@ -1,7 +1,10 @@
 {
   "folders": [
-	{
-		"path": "front-end"
-	}
-]
+    {
+      "path": "front-end"
+    },
+    {
+      "path": "/Users/paulpetroski/devprojects/GitHub/Building-Applications-with-Spring-5-and-Vue.js-2/Chapter09/vuejs.spring-boot.mysql"
+    }
+  ]
 }
