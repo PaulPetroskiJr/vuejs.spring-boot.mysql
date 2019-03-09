@@ -99,7 +99,7 @@ import {
   alphaNum
 } from "vuelidate/lib/validators";
 
-import registrationService from "@/services/registratinion";
+import registrationService from "@/services/registration";
 
 export default {
   name: "RegisterPage",
