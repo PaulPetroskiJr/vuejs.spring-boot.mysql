@@ -30,7 +30,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         .antMatchers(PUBLIC).permitAll()
         .anyRequest().authenticated()
       .and()
-     //   .addFilterAt(authenticationFilter(), UsernamePasswordAuthenticationFilter.class)
+        .addFilterAt(authenticationFilter(), UsernamePasswordAuthenticationFilter.class)
         .formLogin()
         .loginPage("/login")
       .and()

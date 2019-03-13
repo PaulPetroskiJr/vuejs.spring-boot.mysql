@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import LoginPage from "@/views/LoginPage";
+import HomePage from "@/views/HomePage";
 import RegisterPage from "@/views/RegisterPage";
 
 Vue.use(Router);
@@ -10,13 +11,18 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
+      path: "/",
+      name: "home",
+      component: HomePage
+    },
+    {
       path: "/login",
-      name: "LoginPage",
+      name: "login",
       component: LoginPage
     },
     {
       path: "/register",
-      name: "RegisterPage",
+      name: "register",
       component: RegisterPage
     }
   ]
